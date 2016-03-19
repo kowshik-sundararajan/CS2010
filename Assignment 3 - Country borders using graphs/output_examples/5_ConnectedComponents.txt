@@ -1,0 +1,18 @@
+(This file only shows the top two 2 Connected Components!)
+
+================ Assignment 3 ==================
+1. List all countries and bordering countries 
+2. Find shortest path 
+3. List all countries with N neighbors 
+4. Block a country (affects 2) 
+5. Find countries with borders larger than X km 
+6. Show all connected components (largest to smallest) 
+7. Exit 
+> 6
+================================================
+
+>>> 3.5 Show all connected components
+Component 0: 138
+  Afghanistan, Albania, Algeria, Andorra, Angola, Armenia, Austria, Azerbaijan, Bangladesh, Belarus, Belgium, Benin, Bhutan, Bosnia and Herzegovina, Botswana, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Central African Republic, Chad, People's Republic of China, Democratic Republic of the Congo, Republic of the Congo, Cote d'Ivoire, Croatia, Czech Republic, Denmark, Djibouti, East Timor, Egypt, Equatorial Guinea, Eritrea, Estonia, Ethiopia, Finland, France, Gabon, The Gambia, Gaza Strip (Palestinian territories), Georgia, Germany, Ghana, Gibraltar (United Kingdom), Greece, Guinea, Guinea-Bissau, Hong Kong (People's Republic of China), Hungary, India, Indonesia, Iran, Iraq, Israel, Italy, Jordan, Kazakhstan, Kenya, North Korea, South Korea, Kosovo, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macau (People's Republic of China), Macedonia, Malawi, Malaysia, Mali, Mauritania, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Nagorno-Karabakh Republic, Namibia, Nepal, Netherlands, Niger, Nigeria, Norway, Oman, Pakistan, Papua New Guinea, Poland, Portugal, Qatar, Romania, Russia, Rwanda, San Marino, Saudi Arabia, Senegal, Serbia, Sierra Leone, Slovakia, Slovenia, Somalia, South Africa, South Sudan, Spain, Sri Lanka, Sudan, Swaziland, Sweden, Switzerland, Syria, Tajikistan, Tanzania, Thailand, Togo, Tunisia, Turkey, Turkmenistan, Uganda, Ukraine, United Arab Emirates, Uzbekistan, Vatican City, Vietnam, West Bank (Palestinian territories), Western Sahara, Yemen, Zambia, Zimbabwe
+Component 1: 23
+  Argentina, Belize, Bolivia, Brazil, Canada, Chile, Colombia, Costa Rica, Ecuador, El Salvador, French Guiana (France), Guatemala, Guyana, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Suriname, United States, Uruguay, Venezuela

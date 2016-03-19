@@ -1,0 +1,15 @@
+================ Assignment 3 ==================
+1. List all countries and bordering countries 
+2. Find shortest path 
+3. List all countries with N neighbors 
+4. Block a country (affects 2) 
+5. Find countries with borders larger than X km 
+6. Show all connected components (largest to smallest) 
+7. Exit 
+> 5
+================================================
+
+>>> 3.4 Find country with borders larger than X
+>>> Enter border length X (or -1 to escape): 20000
+People's Republic of China 22147.3 km -> Vietnam 1281.0 km, Tajikistan 414.0 km, Russia 3645.0 km, Pakistan 523.0 km, Nepal 1236.0 km, Myanmar 2185.0 km, Mongolia 4677.0 km, Macau (People's Republic of China) 0.3 km, Laos 423.0 km, Kyrgyzstan 858.0 km, North Korea 1416.0 km, Kazakhstan 1533.0 km, India 3380.0 km, Hong Kong (People's Republic of China) 30.0 km, Bhutan 470.0 km, Afghanistan 76.0 km
+Russia 20017.0 km -> Ukraine 1576.0 km, Poland 206.0 km, Norway 196.0 km, Mongolia 3485.0 km, Lithuania 227.0 km, Latvia 217.0 km, North Korea 19.0 km, Kazakhstan 6846.0 km, Georgia 723.0 km, Finland 1340.0 km, Estonia 294.0 km, People's Republic of China 3645.0 km, Belarus 959.0 km, Azerbaijan 284.0 km

@@ -1,0 +1,289 @@
+================ Assignment 3 ==================
+1. List all countries and bordering countries 
+2. Find shortest path 
+3. List all countries with X neighbors 
+4. Block a country (affects 2) 
+5. Find countries with borders larger than X km 
+6. Show all connected components (largest to smallest) 
+7. Exit 
+> 1
+================================================
+Adelie Land (France) (0): Australian Antarctic Territory (Australia) (17)
+Afghanistan (1): People's Republic of China (53), Iran (119), Pakistan (193), Tajikistan (247), Turkmenistan (257), Uzbekistan (267)
+Akrotiri and Dhekelia (United Kingdom) (2): Cyprus (68), Northern Cyprus (69)
+Albania (3): Greece (99), Kosovo (139), Macedonia (152), Montenegro (172)
+Algeria (4): Libya (147), Mali (159), Mauritania (163), Morocco (174), Niger (186), Tunisia (255), Western Sahara (275)
+American Samoa (United States) (5): 
+Amsterdam Island and Ile Saint-Paul (France) (6): 
+Andorra (7): France (87), Spain (237)
+Angola (8): Democratic Republic of the Congo (59), Republic of the Congo (60), Namibia (178), Zambia (277)
+Anguilla (United Kingdom) (9): 
+Antartica Chilena Province (Chile) (10): British Antarctic Territory (United Kingdom) (38)
+Antigua and Barbuda (11): 
+Argentina (12): Bolivia (33), Brazil (37), Chile (52), Paraguay (198), Uruguay (266)
+Armenia (13): Azerbaijan (19), Georgia (94), Iran (119), Turkey (256), Nagorno-Karabakh Republic (177)
+Aruba (Netherlands) (14): 
+Ashmore and Cartier Islands (Australia) (15): 
+Australia (16): 
+Australian Antarctic Territory (Australia) (17): Adelie Land (France) (0), Queen Maud Land (Norway) (207), Ross Dependency (New Zealand) (210)
+Austria (18): Czech Republic (70), Germany (95), Hungary (114), Italy (124), Liechtenstein (148), Slovakia (230), Slovenia (231), Switzerland (244)
+Azerbaijan (19): Armenia (13), Georgia (94), Iran (119), Russia (211), Turkey (256), Nagorno-Karabakh Republic (177)
+Azores (Portugal) (20): 
+Bahamas (21): 
+Bahrain (22): 
+Baker Island and Howland Island (United States) (23): 
+Bangladesh (24): India (117), Myanmar (176)
+Barbados (25): 
+Bassas da India, Europa Island, and Juan de Nova Island (France) (26): 
+Belarus (27): Latvia (143), Lithuania (149), Poland (203), Russia (211), Ukraine (261)
+Belgium (28): France (87), Germany (95), Luxembourg (150), Netherlands (182)
+Belize (29): Guatemala (104), Mexico (166)
+Benin (30): Burkina Faso (43), Niger (186), Nigeria (187), Togo (250)
+Bermuda (United Kingdom) (31): 
+Bhutan (32): People's Republic of China (53), India (117)
+Bolivia (33): Argentina (12), Brazil (37), Chile (52), Paraguay (198), Peru (199)
+Bosnia and Herzegovina (34): Croatia (64), Montenegro (172), Serbia (225)
+Botswana (35): Namibia (178), South Africa (234), Zambia (277), Zimbabwe (278)
+Bouvet Island (36): 
+Brazil (37): Argentina (12), Bolivia (33), Colombia (57), French Guiana (France) (88), Guyana (108), Paraguay (198), Peru (199), Suriname (240), Uruguay (266), Venezuela (270)
+British Antarctic Territory (United Kingdom) (38): Antartica Chilena Province (Chile) (10), Queen Maud Land (Norway) (207)
+British Indian Ocean Territory (United Kingdom) (39): 
+British Virgin Islands (United Kingdom) (40): 
+Brunei (41): Malaysia (157)
+Bulgaria (42): Greece (99), Macedonia (152), Romania (209), Serbia (225), Turkey (256)
+Burkina Faso (43): Benin (30), Cote d'Ivoire (63), Ghana (96), Mali (159), Niger (186), Togo (250)
+Burundi (44): Democratic Republic of the Congo (59), Rwanda (212), Tanzania (248)
+Cambodia (45): Laos (142), Thailand (249), Vietnam (271)
+Cameroon (46): Central African Republic (50), Chad (51), Republic of the Congo (60), Equatorial Guinea (79), Gabon (91), Nigeria (187)
+Canada (47): United States (264)
+Cape Verde (48): 
+Cayman Islands (United Kingdom) (49): 
+Central African Republic (50): Cameroon (46), Chad (51), Democratic Republic of the Congo (59), Republic of the Congo (60), South Sudan (236), Sudan (239)
+Chad (51): Cameroon (46), Central African Republic (50), Libya (147), Niger (186), Nigeria (187), Sudan (239)
+Chile (52): Argentina (12), Bolivia (33), Peru (199)
+People's Republic of China (53): Afghanistan (1), Bhutan (32), Hong Kong (People's Republic of China) (112), India (117), Kazakhstan (132), North Korea (137), Kyrgyzstan (141), Laos (142), Macau (People's Republic of China) (151), Mongolia (171), Myanmar (176), Nepal (181), Pakistan (193), Russia (211), Tajikistan (247), Vietnam (271)
+Christmas Island (Australia) (54): 
+Clipperton Island (France) (55): 
+Cocos (Keeling) Islands (Australia) (56): 
+Colombia (57): Brazil (37), Ecuador (76), Panama (196), Peru (199), Venezuela (270)
+Comoros (58): 
+Democratic Republic of the Congo (59): Angola (8), Burundi (44), Central African Republic (50), Republic of the Congo (60), Rwanda (212), South Sudan (236), Tanzania (248), Uganda (260), Zambia (277)
+Republic of the Congo (60): Angola (8), Cameroon (46), Central African Republic (50), Democratic Republic of the Congo (59), Gabon (91)
+Cook Islands (61): 
+Costa Rica (62): Nicaragua (185), Panama (196)
+Cote d'Ivoire (63): Burkina Faso (43), Ghana (96), Guinea (106), Liberia (146), Mali (159)
+Croatia (64): Bosnia and Herzegovina (34), Hungary (114), Montenegro (172), Serbia (225), Slovenia (231)
+Crozet Islands (France) (65): 
+Cuba (66): 
+Curacao (Netherlands) (67): 
+Cyprus (68): Akrotiri and Dhekelia (United Kingdom) (2), Northern Cyprus (69)
+Northern Cyprus (69): Akrotiri and Dhekelia (United Kingdom) (2), Cyprus (68)
+Czech Republic (70): Austria (18), Germany (95), Poland (203), Slovakia (230)
+Denmark (71): Germany (95)
+Djibouti (72): Eritrea (80), Ethiopia (82), Somalia (233)
+Dominica (73): 
+Dominican Republic (74): Haiti (109)
+East Timor (75): Indonesia (118)
+Ecuador (76): Colombia (57), Peru (199)
+Egypt (77): Gaza Strip (Palestinian territories) (93), Israel (123), Libya (147), Sudan (239)
+El Salvador (78): Guatemala (104), Honduras (111)
+Equatorial Guinea (79): Cameroon (46), Gabon (91)
+Eritrea (80): Djibouti (72), Ethiopia (82), Sudan (239)
+Estonia (81): Latvia (143), Russia (211)
+Ethiopia (82): Djibouti (72), Eritrea (80), Kenya (133), Somalia (233), South Sudan (236), Sudan (239)
+Falkland Islands (United Kingdom) (83): 
+Faroe Islands (Denmark) (84): 
+Fiji (85): 
+Finland (86): Norway (191), Sweden (243), Russia (211)
+France (87): Andorra (7), Belgium (28), Germany (95), Italy (124), Luxembourg (150), Monaco (170), Spain (237), Switzerland (244)
+French Guiana (France) (88): Brazil (37), Suriname (240)
+French Polynesia (France) (89): 
+French Southern and Antarctic Lands (France) (90): 
+Gabon (91): Cameroon (46), Republic of the Congo (60), Equatorial Guinea (79)
+The Gambia (92): Senegal (224)
+Gaza Strip (Palestinian territories) (93): Egypt (77), Israel (123)
+Georgia (94): Armenia (13), Azerbaijan (19), Russia (211), Turkey (256)
+Germany (95): Austria (18), Belgium (28), Czech Republic (70), Denmark (71), France (87), Luxembourg (150), Netherlands (182), Poland (203), Switzerland (244)
+Ghana (96): Burkina Faso (43), Cote d'Ivoire (63), Togo (250)
+Gibraltar (United Kingdom) (97): Spain (237)
+Glorioso Islands (France) (98): 
+Greece (99): Albania (3), Bulgaria (42), Turkey (256), Macedonia (152)
+Greenland (Denmark) (100): 
+Grenada (101): 
+Guadeloupe (France) (102): 
+Guam (United States) (103): 
+Guatemala (104): Belize (29), El Salvador (78), Honduras (111), Mexico (166)
+Guernsey (United Kingdom) (105): 
+Guinea (106): Cote d'Ivoire (63), Guinea-Bissau (107), Liberia (146), Mali (159), Senegal (224), Sierra Leone (227)
+Guinea-Bissau (107): Guinea (106), Senegal (224)
+Guyana (108): Brazil (37), Suriname (240), Venezuela (270)
+Haiti (109): Dominican Republic (74)
+Heard Island and McDonald Islands (Australia) (110): 
+Honduras (111): El Salvador (78), Guatemala (104), Nicaragua (185)
+Hong Kong (People's Republic of China) (112): People's Republic of China (53)
+Howland Island and Baker Island (United States) (113): 
+Hungary (114): Austria (18), Croatia (64), Romania (209), Serbia (225), Slovakia (230), Slovenia (231), Ukraine (261)
+Iceland (115): 
+le Saint-Paul and Amsterdam Island (France) (116): 
+India (117): Bangladesh (24), Bhutan (32), People's Republic of China (53), Myanmar (176), Nepal (181), Pakistan (193), Sri Lanka (238)
+Indonesia (118): East Timor (75), Malaysia (157), Papua New Guinea (197)
+Iran (119): Afghanistan (1), Armenia (13), Azerbaijan (19), Iraq (120), Pakistan (193), Turkey (256), Turkmenistan (257), Nagorno-Karabakh Republic (177)
+Iraq (120): Iran (119), Jordan (130), Kuwait (140), Saudi Arabia (223), Syria (245), Turkey (256)
+Ireland (121): United Kingdom (263)
+Isle of Man (United Kingdom) (122): 
+Israel (123): Egypt (77), Gaza Strip (Palestinian territories) (93), Jordan (130), Lebanon (144), Syria (245), West Bank (Palestinian territories) (274)
+Italy (124): Austria (18), France (87), San Marino (221), Slovenia (231), Switzerland (244), Vatican City (269)
+Jamaica (125): 
+Japan (126): 
+Jarvis Island (United States) (127): 
+Jersey (128): 
+Johnston Atoll (United States) (129): 
+Jordan (130): Iraq (120), Israel (123), Saudi Arabia (223), Syria (245), West Bank (Palestinian territories) (274)
+Juan de Nova Island, Bassas da India, and Europa Island (France) (131): 
+Kazakhstan (132): People's Republic of China (53), Kyrgyzstan (141), Russia (211), Turkmenistan (257), Uzbekistan (267)
+Kenya (133): Ethiopia (82), Somalia (233), South Sudan (236), Tanzania (248), Uganda (260)
+Kerguelen Islands (France) (134): 
+Kingman Reef and Palmyra Atoll (United States) (135): 
+Kiribati (136): 
+North Korea (137): People's Republic of China (53), South Korea (138), Russia (211)
+South Korea (138): North Korea (137)
+Kosovo (139): Albania (3), Macedonia (152), Montenegro (172), Serbia (225)
+Kuwait (140): Iraq (120), Saudi Arabia (223)
+Kyrgyzstan (141): People's Republic of China (53), Kazakhstan (132), Tajikistan (247), Uzbekistan (267)
+Laos (142): Cambodia (45), People's Republic of China (53), Myanmar (176), Thailand (249), Vietnam (271)
+Latvia (143): Belarus (27), Estonia (81), Lithuania (149), Russia (211)
+Lebanon (144): Israel (123), Syria (245)
+Lesotho (145): South Africa (234)
+Liberia (146): Cote d'Ivoire (63), Guinea (106), Sierra Leone (227)
+Libya (147): Algeria (4), Chad (51), Egypt (77), Niger (186), Sudan (239), Tunisia (255)
+Liechtenstein (148): Austria (18), Switzerland (244)
+Lithuania (149): Belarus (27), Latvia (143), Poland (203), Russia (211)
+Luxembourg (150): Belgium (28), France (87), Germany (95)
+Macau (People's Republic of China) (151): People's Republic of China (53)
+Macedonia (152): Albania (3), Bulgaria (42), Greece (99), Kosovo (139), Serbia (225)
+Macquarie Island (Australia) (153): 
+Madagascar (154): 
+Madeira (Portugal) (155): 
+Malawi (156): Mozambique (175), Tanzania (248), Zambia (277)
+Malaysia (157): Brunei (41), Indonesia (118), Thailand (249)
+Maldives (158): 
+Mali (159): Algeria (4), Burkina Faso (43), Cote d'Ivoire (63), Guinea (106), Mauritania (163), Niger (186), Senegal (224)
+Malta (160): 
+Marshall Islands (161): 
+Martinique (France) (162): 
+Mauritania (163): Algeria (4), Mali (159), Senegal (224), Western Sahara (275)
+Mauritius (164): 
+Mayotte (France) (165): 
+Mexico (166): Belize (29), Guatemala (104), United States (264)
+Federated States of Micronesia (167): 
+Midway Atoll (United States) (168): 
+Moldova (169): Romania (209), Ukraine (261)
+Monaco (170): France (87)
+Mongolia (171): People's Republic of China (53), Russia (211)
+Montenegro (172): Albania (3), Bosnia and Herzegovina (34), Croatia (64), Kosovo (139), Serbia (225)
+Montserrat (United Kingdom) (173): 
+Morocco (174): Algeria (4), Western Sahara (275), Spain (237)
+Mozambique (175): Malawi (156), South Africa (234), Swaziland (242), Tanzania (248), Zambia (277), Zimbabwe (278)
+Myanmar (176): Bangladesh (24), People's Republic of China (53), India (117), Laos (142), Thailand (249)
+Nagorno-Karabakh Republic (177): Armenia (13), Azerbaijan (19), Iran (119)
+Namibia (178): Angola (8), Botswana (35), South Africa (234), Zambia (277)
+Nauru (179): 
+Navassa Island (United States) (180): 
+Nepal (181): People's Republic of China (53), India (117)
+Netherlands (182): Belgium (28), Germany (95)
+New Caledonia (France) (183): 
+New Zealand (184): 
+Nicaragua (185): Costa Rica (62), Honduras (111)
+Niger (186): Algeria (4), Benin (30), Burkina Faso (43), Chad (51), Libya (147), Mali (159), Nigeria (187)
+Nigeria (187): Benin (30), Cameroon (46), Chad (51), Niger (186)
+Niue (188): 
+Norfolk Island (Australia) (189): 
+Northern Mariana Islands (United States) (190): 
+Norway (191): Finland (86), Sweden (243), Russia (211)
+Oman (192): Saudi Arabia (223), United Arab Emirates (262), Yemen (276)
+Pakistan (193): Afghanistan (1), People's Republic of China (53), India (117), Iran (119)
+Palau (194): 
+Palmyra Atoll and Kingman Reef (United States) (195): 
+Panama (196): Colombia (57), Costa Rica (62)
+Papua New Guinea (197): Indonesia (118)
+Paraguay (198): Argentina (12), Bolivia (33), Brazil (37)
+Peru (199): Bolivia (33), Brazil (37), Chile (52), Colombia (57), Ecuador (76)
+Peter I Island (200): 
+Philippines (201): 
+Pitcairn Islands (United Kingdom) (202): 
+Poland (203): Belarus (27), Czech Republic (70), Germany (95), Lithuania (149), Russia (211), Slovakia (230), Ukraine (261)
+Portugal (204): Spain (237)
+Puerto Rico (United States) (205): 
+Qatar (206): Saudi Arabia (223), United Arab Emirates (262)
+Queen Maud Land (Norway) (207): Australian Antarctic Territory (Australia) (17), British Antarctic Territory (United Kingdom) (38)
+R�union (France) (208): 
+Romania (209): Bulgaria (42), Hungary (114), Moldova (169), Serbia (225), Ukraine (261)
+Ross Dependency (New Zealand) (210): Australian Antarctic Territory (Australia) (17)
+Russia (211): Azerbaijan (19), Belarus (27), People's Republic of China (53), Estonia (81), Finland (86), Georgia (94), Kazakhstan (132), North Korea (137), Latvia (143), Lithuania (149), Mongolia (171), Norway (191), Poland (203), Ukraine (261)
+Rwanda (212): Burundi (44), Democratic Republic of the Congo (59), Tanzania (248), Uganda (260)
+Saint Barthelemy (France) (213): 
+Saint Helena, Ascension and Tristan da Cunha (United Kingdom) (214): 
+Saint Kitts and Nevis (215): 
+Saint Lucia (216): 
+Saint Martin (France) (217): Sint Maarten (Netherlands) (229)
+Saint Pierre and Miquelon (France) (218): 
+Saint Vincent and the Grenadines (219): 
+Samoa (220): 
+San Marino (221): Italy (124)
+Sao Tome and Principe (222): 
+Saudi Arabia (223): Iraq (120), Jordan (130), Kuwait (140), Oman (192), Qatar (206), United Arab Emirates (262), Yemen (276)
+Senegal (224): The Gambia (92), Guinea (106), Guinea-Bissau (107), Mali (159), Mauritania (163)
+Serbia (225): Bosnia and Herzegovina (34), Bulgaria (42), Croatia (64), Hungary (114), Kosovo (139), Macedonia (152), Montenegro (172), Romania (209)
+Seychelles (226): 
+Sierra Leone (227): Guinea (106), Liberia (146)
+Singapore (228): 
+Sint Maarten (Netherlands) (229): Saint Martin (France) (217)
+Slovakia (230): Austria (18), Czech Republic (70), Hungary (114), Poland (203), Ukraine (261)
+Slovenia (231): Austria (18), Croatia (64), Hungary (114), Italy (124)
+Solomon Islands (232): 
+Somalia (233): Djibouti (72), Ethiopia (82), Kenya (133)
+South Africa (234): Botswana (35), Lesotho (145), Mozambique (175), Namibia (178), Swaziland (242), Zimbabwe (278)
+South Georgia and the South Sandwich Islands (United Kingdom) (235): 
+South Sudan (236): Central African Republic (50), Democratic Republic of the Congo (59), Ethiopia (82), Kenya (133), Sudan (239), Uganda (260)
+Spain (237): Andorra (7), France (87), Gibraltar (United Kingdom) (97), Morocco (174), Portugal (204)
+Sri Lanka (238): India (117)
+Sudan (239): Central African Republic (50), Chad (51), Egypt (77), Eritrea (80), Ethiopia (82), Libya (147), South Sudan (236)
+Suriname (240): Brazil (37), French Guiana (France) (88), Guyana (108)
+Svalbard (Norway) (241): 
+Swaziland (242): Mozambique (175), South Africa (234)
+Sweden (243): Finland (86), Norway (191)
+Switzerland (244): Austria (18), France (87), Germany (95), Italy (124), Liechtenstein (148)
+Syria (245): Iraq (120), Israel (123), Jordan (130), Lebanon (144), Turkey (256)
+Taiwan (246): 
+Tajikistan (247): Afghanistan (1), People's Republic of China (53), Kyrgyzstan (141), Uzbekistan (267)
+Tanzania (248): Burundi (44), Democratic Republic of the Congo (59), Kenya (133), Malawi (156), Mozambique (175), Rwanda (212), Uganda (260), Zambia (277)
+Thailand (249): Cambodia (45), Laos (142), Malaysia (157), Myanmar (176)
+Togo (250): Benin (30), Burkina Faso (43), Ghana (96)
+Tokelau (New Zealand) (251): 
+Tonga (252): 
+Tromelin Island (France) (253): 
+Trinidad and Tobago (254): 
+Tunisia (255): Algeria (4), Libya (147)
+Turkey (256): Armenia (13), Azerbaijan (19), Bulgaria (42), Georgia (94), Greece (99), Iran (119), Iraq (120), Syria (245)
+Turkmenistan (257): Afghanistan (1), Iran (119), Kazakhstan (132), Uzbekistan (267)
+Turks and Caicos Islands (United Kingdom) (258): 
+Tuvalu (259): 
+Uganda (260): Democratic Republic of the Congo (59), Kenya (133), Rwanda (212), South Sudan (236), Tanzania (248)
+Ukraine (261): Belarus (27), Hungary (114), Moldova (169), Poland (203), Romania (209), Russia (211), Slovakia (230)
+United Arab Emirates (262): Oman (192), Qatar (206), Saudi Arabia (223)
+United Kingdom (263): Ireland (121)
+United States (264): Canada (47), Mexico (166)
+United States Virgin Islands (United States) (265): 
+Uruguay (266): Argentina (12), Brazil (37)
+Uzbekistan (267): Afghanistan (1), Kazakhstan (132), Kyrgyzstan (141), Tajikistan (247), Turkmenistan (257)
+Vanuatu (268): 
+Vatican City (269): Italy (124)
+Venezuela (270): Brazil (37), Colombia (57), Guyana (108)
+Vietnam (271): Cambodia (45), People's Republic of China (53), Laos (142)
+Wake Island (United States) (272): 
+Wallis and Futuna (France) (273): 
+West Bank (Palestinian territories) (274): Israel (123), Jordan (130)
+Western Sahara (275): Algeria (4), Mauritania (163), Morocco (174)
+Yemen (276): Oman (192), Saudi Arabia (223)
+Zambia (277): Angola (8), Botswana (35), Democratic Republic of the Congo (59), Malawi (156), Mozambique (175), Namibia (178), Tanzania (248), Zimbabwe (278)
+Zimbabwe (278): Botswana (35), Mozambique (175), South Africa (234), Zambia (277)

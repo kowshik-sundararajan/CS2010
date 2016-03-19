@@ -1,0 +1,17 @@
+================ Assignment 3 ==================
+1. List all countries and bordering countries 
+2. Find shortest path 
+3. List all countries with N neighbors 
+4. Block a country (affects 2) 
+5. Find countries with borders larger than X km 
+6. Show all connected components (largest to smallest) 
+7. Exit 
+> 2
+================================================
+>>> 3.1(b) Find shortest path
+>>> Enter source and destination (0-279) pair (or -1 to escape): 3 53
+Blocked Country: 
+6 : Albania (3) -> Greece (99) -> Turkey (256) -> Iran (119) -> Pakistan (193) -> People's Republic of China (53)
+>>> Enter source and destination (0-279) pair (or -1 to escape): 4 65
+Blocked Country: 
+no path

@@ -1,0 +1,14 @@
+================ Assignment 3 ==================
+1. List all countries and bordering countries 
+2. Find shortest path 
+3. List all countries with N neighbors 
+4. Block a country (affects 2) 
+5. Find countries with borders larger than X km 
+6. Show all connected components (largest to smallest) 
+7. Exit 
+> 3
+================================================
+
+>>> 3.2 List all countries with N neighbors
+>>> Enter N (or -1 to escape): 8
+Austria, France, Iran, Serbia, Tanzania, Turkey, Zambia
